@@ -19,7 +19,6 @@
 // 
 // @APPLE_LICENSE_HEADER_END@
 
-#include "IOHIDFamily-Version.xcconfig"
-
-ARCHS = i386 x86_64
-VALID_ARCHS = armv6 i386 x86_64
+IOHIDFAMILY_COPYRIGHT = "Copyright © 2000-2009 Apple Inc. All rights reserved."
+IOHIDFAMILY_VERSION = 1.6.0
+MODULE_VERSION = $(IOHIDFAMILY_VERSION)
